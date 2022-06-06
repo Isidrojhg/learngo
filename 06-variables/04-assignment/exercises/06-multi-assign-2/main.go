@@ -28,11 +28,17 @@ package main
 func main() {
 	// UNCOMMENT THE CODE BELOW:
 
-	// var (
-	// 	planet string
-	// 	isTrue bool
-	// 	temp   float64
-	// )
+	var (
+		planet string
+		isTrue bool
+		temp   float64
+	)
 
 	// ADD YOUR CODE BELOW
+
+	planet, isTrue, temp = "Mars", true, 19.5
+
+	println("Air is good on ", planet)
+	println("It's ", isTrue)
+	println("It is", temp, " degrees")
 }

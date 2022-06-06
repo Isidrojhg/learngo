@@ -8,6 +8,10 @@
 
 package main
 
+import (
+	"path"
+)
+
 // ---------------------------------------------------------
 // EXERCISE: Discard The File
 //
@@ -25,5 +29,7 @@ package main
 func main() {
 	// UNCOMMENT THE CODE BELOW:
 
-	// ? ?= path.Split("secret/file.txt")
+	dir, _ := path.Split("secret/file.txt")
+
+	println(dir)
 }
